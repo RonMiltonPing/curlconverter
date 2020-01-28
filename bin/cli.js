@@ -12,7 +12,6 @@ const defaultLanguage = 'python'
 const translate = {
   ansible: 'toAnsible',
   dart: 'toDart',
-  elixir: 'toElixir',
   go: 'toGo',
   json: 'toJsonString',
   node: 'toNode',
@@ -20,7 +19,8 @@ const translate = {
   python: 'toPython',
   r: 'toR',
   rust: 'toRust',
-  strest: 'toStrest'
+  strest: 'toStrest',
+  jquery: 'toJquery'
 }
 
 // outputs the help menu
