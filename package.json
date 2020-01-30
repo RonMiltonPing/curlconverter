@@ -27,7 +27,7 @@
     "string.prototype.startswith": "^0.2.0",
     "webpack": "^4.39.2",
     "yamljs": "^0.3.0",
-    "yargs": "github:NickCarneiro/yargs",
+    "yargs": "github:NickCarneiro/yargs"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
