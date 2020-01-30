@@ -22,13 +22,19 @@
     "cmd": "^0.1.0",
     "cookie": "^0.4.0",
     "jsesc": "^2.5.2",
+    "query-string": "^6.8.2",
+    "shell-quote": "^1.6.0",
     "string.prototype.startswith": "^0.2.0",
+    "webpack": "^4.39.2",
     "yamljs": "^0.3.0",
-    "yargs": "github:NickCarneiro/yargs"
+    "yargs": "github:NickCarneiro/yargs",
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "expose-loader": "^0.7.1",
     "standard": "^14.3.1",
-    "tape": "^4.11.0"
+    "tape": "^4.11.0",
+    "webpack-cli": "^3.3.6"
   },
   "scripts": {
     "test": "./test.sh"
