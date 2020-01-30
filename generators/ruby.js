@@ -5,9 +5,9 @@
 	https://github.com/mholt/curl-to-go
 */
 
-import querystring from 'query-string';
-import jsonToRuby from './helpers/jsonToRuby';
-import parseCommand from "./helpers/parseCommand";
+const querystring = require('query-string');
+const jsonToRuby = require('./helpers/jsonToRuby');
+const parseCommand = require("./helpers/parseCommand");
 
 export default function curlToRuby(curl) {
 	var prelude = "require 'net/http'\nrequire 'uri'\n";
