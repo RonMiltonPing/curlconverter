@@ -9,7 +9,7 @@ const querystring = require('query-string');
 const jsonToRuby = require('./helpers/jsonToRuby');
 const parseCommand = require("./helpers/parseCommand");
 
-export default function curlToRuby(curl) {
+function toRuby(curl) {
 	var prelude = "require 'net/http'\nrequire 'uri'\n";
 	var coda = "\n" +
 		"# response.code\n" +
@@ -289,3 +289,5 @@ export default function curlToRuby(curl) {
 			!req.insecure;
 	}
 }
+
+module.exports = toRuby

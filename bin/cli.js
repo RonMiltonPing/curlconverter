@@ -20,8 +20,8 @@ const translate = {
   r: 'toR',
   rust: 'toRust',
   strest: 'toStrest',
-  jquery: 'toJquery',
-  ruby: 'toRuby'
+  jquery: 'toJquery' //,
+  //ruby: 'toRuby'
 }
 
 // outputs the help menu

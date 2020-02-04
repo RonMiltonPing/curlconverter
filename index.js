@@ -11,7 +11,7 @@ var toR = require('./generators/r.js')
 var toRust = require('./generators/rust.js')
 var toStrest = require('./generators/strest.js')
 var toJquery = require('./generators/jquery.js')
-var toRuby = require('./generators/ruby.js')
+//var toRuby = require('./generators/ruby.js')
 
 module.exports = {
   toAnsible: toAnsible,
@@ -24,6 +24,6 @@ module.exports = {
   toR: toR,
   toRust: toRust,
   toStrest: toStrest,
-  toJquery: toJquery,
-  toRuby: toRuby 
+  toJquery: toJquery //,
+  //toRuby: toRuby 
 }
